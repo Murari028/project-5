@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.mood-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.5s ease;
+}
+
+.mood-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.mood-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.2s ease;
+}
+
+.mood-button:hover {
+    transform: scale(1.2);
+}
+
+.happy {
+    background-color: #F7DC6F;
+}
+
+.sad {
+    background-color: #87CEEB;
+}
+
+.excited {
+    background-color: #FFC107;
+}
+
+.calm {
+    background-color: #8BC34A;
+}
+
+/* Add this section for dark mode */
+/* .dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .mood-button {
+    background-color: #555;
+} */
+
+
